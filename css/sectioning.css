@@ -1,0 +1,114 @@
+
+.timeline {
+    font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  position: relative;
+  margin-top: 70px;
+
+}
+.timeline__event {
+  margin: 17px 0;
+  position: relative;
+  display: flex;
+
+  border-radius: 6px;
+  align-self: center;
+  width: 60vw;
+  height: 25vh;
+  font-size: 18px;
+}
+
+.timeline__event:nth-child(2n+1) {
+  flex-direction: row-reverse;
+}
+.timeline__event:nth-child(2n+1) .timeline__event__date {
+  border-radius: 0 6px 6px 0;
+}
+.timeline__event:nth-child(2n+1) .timeline__event__content {
+  border-radius: 6px 0 0 6px;
+}
+
+
+.timeline__event__title {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #b41e0a;
+  letter-spacing: 1.5px;
+}
+.timeline__event__content {
+  padding: 20px;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  background: #fff;
+  color: #fff;
+    height: 25vh;
+  width: 100% !important;
+  border-radius: 0 6px 6px 0;
+}
+.timeline__event__date {
+  color: #f6a4ec;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #92290e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  padding: 0 20px;
+  border-radius: 6px 0 0 6px;
+}
+.timeline__event__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9251ac;
+  padding: 20px;
+  align-self: center;
+
+  border-radius: 100%;
+  width: 40px;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  padding: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.timeline__event__icon img {
+    border-radius: 50px;
+    width: 60px;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .timeline__event {
+        margin-bottom: 90px;
+        position: relative;
+        display: flex;
+
+        border-radius: 6px;
+        align-self: center;
+        width: 90vw !important;
+        height: 15vh;
+        font-size: 1rem;
+    }
+    .timeline__event__date { 
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 25vw;
+        font-size: 1rem;
+    }
+    .timeline__event__content {
+        height: 30vh !important;
+    }
+    .timeline__event__icon img {
+        padding-top: 50px;
+    }
+    
+  }
+
+  /* RESET CSS */
+  html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}

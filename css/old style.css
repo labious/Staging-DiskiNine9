@@ -1,0 +1,170 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+ 
+}
+#brand-logo {
+  position: absolute;
+  top: 15%;
+  left: -20%;
+}
+.header-scroll{
+  position: fixed;
+  top: 0px;
+/*   left: 9px;
+  right: 9px; */
+  width: 100vw;
+  height: 50px;
+  border: 1px dotted blue;
+  background-color: rgba(125, 125, 125, 0.5);
+  z-index: 1;
+
+}
+
+
+
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+ /*  min-height: 380px; */
+  min-height: 90vh;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+  #index-banner {
+    margin: 70px 0 0 0;
+  }
+
+@media only screen and (max-width : 500px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    bottom: 5%;
+  }
+}
+
+/* @media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+} */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+/* Nav Scroll  */
+.nav-links .mega-box {
+  position: absolute;
+  left: -15vw;
+/*   background: #242526; */
+  width: 50vw;
+  line-height: 45px;
+  top: 50px;
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+}
+
+.nav-links  .about {
+  position: absolute;
+  left: -15vw;
+/*   background: #242526; */
+  width: 50vw;
+  line-height: 45px;
+  top: 50px;
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+}
+
+.nav-links .mega-box:hover {
+  transition: all 0.3s ease-in;
+  top: 60px;
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+
+.mega-box .content{
+  background: #242526;
+  padding: 25px 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+}
+.mega-box .content .row{
+  width: calc(25% - 30px);
+  line-height: 45px;
+}
+
+.content .row header{
+  color: #f2f2f2;
+  font-size: 20px;
+  font-weight: 500;
+}
+.content .row .mega-links{
+  margin-left: -40px;
+  border-left: 1px solid rgba(255,255,255,0.09);
+}
+.row .mega-links li{
+  padding: 0 20px;
+}
+.row .mega-links li a{
+  padding: 0px;
+  padding: 0 20px;
+  color: #d9d9d9;
+  font-size: 17px;
+  display: block;
+}
+.row .mega-links li a:hover{
+  color: #f2f2f2;
+}
+
+.nav-links li a{
+
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 9px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+/* Buttons */
+
+#download-button {
+  top:30vh;
+}

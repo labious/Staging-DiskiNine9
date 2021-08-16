@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">  
+
+    <!-- Script -->
+    <script src="https://kit.fontawesome.com/310dfb5b04.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <!-- CSS  -->
+    <link rel="stylesheet" href="./css/impact.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link href="./css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+    <link href="css/style1.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+    
+</head>
+<body>
+ <!-- ***************************** Navigation Desktop Only ************************ -->
+ <div class="header-scroll" id="nav-motion">
+  <nav class="white nav" role="navigation">
+
+    <div class="nav-wrapper container" id="nav-wrapper">
+      <a id="logo-container" href="index.html" class="brand-logo">
+        <img width="130px" class=" responsive-img" id="logo-image" src="./img/logo-main.jpg" alt="" srcset="">
+      </a>
+      <ul class="right hide-on-small-only " id="nav-links">
+          <li><a href="index.html">Home</a></li>
+        
+          <li id="feedback-box"><a href="About.html">About</a></li>
+
+          <li class="" id="Programmes-menu-box">
+            <a href="programmes.html" class="  desktop-item">Programmes</a>
+          </li>
+
+          <li class="" id="dropdown-menu-box">
+            <a href="impact.html" class="desktop-item">Impact</a>
+          </li>
+
+          <li id="Galery-box"><a  href="./gallery.html" class="desktop-item">Gallery</a></li>
+          <li><a href="./About.html#get-invloved" id="download-button" class="btn-small center  red lighten-1 ">Donate</a></li>
+    </ul>
+    <a href="#" data-target="nav-mobile" id="sidenav-trigger" class="sidenav-trigger hide-on-med-and-up"><i class="material-icons">menu</i></a>
+    <ul id="nav-mobile" class="sidenav">
+        <a href="#">
+        <img width="40px" class="circle hide-on-med-and-up responsive-img" id="logo-image-mobile-nav" src="./img/logo2.png" alt="" srcset="">   
+        </a>
+        <!-- Mobile Navigation -->
+        <div class="mob-link">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="programmes.html">Programmes</a></li>
+          <li><a href="impact.html">Impact</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li><a  href="./gallery.html">Gallery</a></li>
+          <li><a href="./About.html#get-invloved" id="download-button" class="btn-small  red ">Donate</a></li>
+          <div class="socials">
+            <i class="fab fa-facebook  fa-2x"></i>
+            <i class="fab fa-linkedin fa-2x"></i>
+            <i class="fab fa-youtube-square fa-2x"></i>
+          </div>
+        </div>
+    </ul>
+  </div>
+</div><!-- *****************************End of Navigation Desktop Only ************************ -->
+
+
+
+<!-- start count stats -->
+<section id="counter-stats" class="wow fadeInRight hide-on-med-and-down" data-wow-duration="1.4s">
+	<div class=" stats-container ">
+		<div class="row ">
+      <h2 class="center ">Our impact</h2>
+
+			<div class="col s1 m3 13 stats red">
+				<div class="counting" data-count="4000">0</div>
+        <i class="fa fa-users" aria-hidden="true"></i>
+				<p>Participants reached</p>
+			</div>
+
+			<div class="col s1 m3 13 stats ">
+				<div class="counting" data-count="1300">0</div>
+        <i class="fa fa-book-reader" aria-hidden="true"></i>
+        <p>Learners engaged in academic and sports development in schools.</p>
+			</div>
+
+			<div class="col s1 m3 13 stats red">
+				<div class="counting" data-count="8">0</div>
+        <i class="fa fa-futbol" aria-hidden="true"></i>
+				<p>Talented players scouted for Professional Soccer teams.</p>
+			</div>
+
+			<div class="col s1 m3  13 stats ">
+				<div class="counting" data-count="130">0</div>
+        <i class="fa fa-chalkboard-teacher" aria-hidden="true"></i>
+				<p>On the job training and work experiences provided to youths around Johannesburg. </p>
+			</div>
+
+
+		</div>
+		<!-- end row -->
+	</div>
+	<!-- end Desktop Counter-->
+</section>
+
+<!-- start Mobile Count stats -->
+<section id="counter-stats" class="wow fadeInRight hide-on-large-only" data-wow-duration="1.4s">
+	<div class="">
+		<div class="row ">
+      <h2 class="center ">Our impact</h2>
+
+
+      <div class="col  s8 m6  stats red">
+				<div class="counting" data-count="4000">0</div>
+        <i class="fa fa-users" aria-hidden="true"></i>
+				<p>Participants reached</p>
+			</div>
+
+			<div class="col  s8 m6  stats ">
+				<div class="counting" data-count="1300">0</div>
+        <i class="fa fa-book-reader" aria-hidden="true"></i>
+				<p>Learners engaged in academic and sports development in schools</p>
+			</div>
+
+			<div class="col  s8 m6  stats red">
+				<div class="counting" data-count="8">0</div>
+        <i class="fa fa-futbol" aria-hidden="true"></i>
+				<p>talented players scouted for Professional Soccer teams</p>
+			</div>
+
+			<div class="col  s8 m6  stats ">
+				<div class="counting" data-count="130">0</div>
+        <i class="fa fa-chalkboard-teacher" aria-hidden="true"></i>
+				<p>on the job training and work experiences provided to youths around Johannesburg </p>
+			</div>
+		</div>
+		<!-- end row -->
+	</div>
+	<!-- end container -->
+</section>
+
+<!-- end cont stats -->
+
+
+
+<!-- Success Story -->
+<div class="succes-stories ">
+  <h2 class="center ">Success Stories</h2>
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        <img src="./img/impact/Fezile.jpg" alt="rover" />
+      </div>
+      <div class="card-body">
+        <span class="tag tag-teal">Professional Referee</span>
+        <h4>
+          Fezile is a referee
+        </h4>
+        <p>
+          An exploration into the truck's polarising design
+        </p>
+        <div class="user">
+          <img src="./img/logo2.png" alt="user" />
+          <div class="user-info">
+            <h5>Fezile Lastname</h5>
+            <small>2h ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="card-header">
+        <img src="./img/impact/Mbali.jpeg" alt="ballons" />
+      </div>
+      <div class="card-body">
+        <span class="tag tag-purple">Education</span>
+        <h4>
+          Mbali graduated
+        </h4>
+        <p>
+          The future can be scary, but there are ways to
+          deal with that fear.
+        </p>
+        <div class="user">
+          <img src="./img/logo2.png" alt="user" />
+          <div class="user-info">
+            <h5>Mbali Lastname</h5>
+            <small>Yesterday</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <img src="./img/impact/sonto.jpg" alt="city" />
+      </div>
+      <div class="card-body">
+        <span class="tag tag-pink">Coaching</span>
+        <h4>
+          Sonto is a coach
+        </h4>
+        <p>
+          The future can be scary, but there are ways to
+          deal with that fear.
+        </p>
+        <div class="user">
+          <img src="./img/logo2.png" alt="user" />
+          <div class="user-info">
+            <h5>Sonto Lastname</h5>
+            <small>1w ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+  <footer class="page-footer maroon hide-on-small-only">
+    <div class="row">
+      <div class="col  s6">
+        <h5 class="white-text">Diski Nine9</h5>
+        <p class="grey-text text-lighten-4">Diski Nine9 Africa is a registered non-profit company based in Soweto, South Africa (Reg no: 2015/447508/08). Diski Nine9 was formed in 2015 and our objective is to use sport, notably soccer and netball as a tool to educate and empower young Africans. “Diski” is a slang term used in South Africa to describe the biggest and most loved sport around the world – Soccer. “Nine9” is a slang term meaning Authentic or Real.</p>
+        <div class="socials">
+          <i class="fab fa-facebook  fa-2x"></i>
+          <i class="fab fa-instagram fa-2x"></i>
+          <i class="fab fa-linkedin fa-2x"></i>
+          <i class="fab fa-twitter-square fa-2x"></i>
+          <i class="fab fa-youtube-square fa-2x"></i>
+        </div>
+      </div>
+      <div class="col  s2 ">
+        <h5 class="white-text">Explore</h5>
+        <ul class="footer-list">
+          <li><a class="white-text" href="About.html">About</a></li>
+          <li><a class="white-text" href="programmes.html">Programmes</a></li>
+          <li><a class="white-text" href="#!">Galery</a></li>
+          <li><a class="white-text" href="#!">Tournaments</a></li>
+        </ul>
+      </div>
+      <div class="col s2">
+        <h5 class="white-text">Important</h5>
+        <ul class="footer-list">
+          <li><a class="white-text" href="#!">News</a></li>
+          <li><a class="white-text" href="#!">Timeline</a></li>
+          <li><a class="white-text" href="#!">Sports</a></li>
+          <li><a class="white-text" href="#!">Volunteer</a></li>
+        </ul>
+      </div>
+      <div class="col s2">
+        <h5 class="white-text">Categories</h5>
+        <ul class="footer-list">
+          <li><a class="white-text" href="#!">Diski / Soccer</a></li>
+          <li><a class="white-text" href="#!">Netball</a></li>
+          <li><a class="white-text" href="#!">E-Sports</a></li>
+          <li><a class="white-text" href="#!">Tournaments</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+  <div class="footer-copyright">
+    Copyright 2019 DiskiNine9. All rights reserved 
+    <a href="index.html">Home</a>
+
+  </div>
+</footer>
+
+<footer class="page-footer maroon hide-on-med-and-up">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Diski Nine9</h5>
+        <p class="grey-text text-lighten-4">Diski Nine9 Africa is a registered non-profit company based in Soweto, South Africa (Reg no: 2015/447508/08). Diski Nine9 was formed in 2015 and our objective is to use sport, notably soccer and netball as a tool to educate and empower young Africans. “Diski” is a slang term used in South Africa to describe the biggest and most loved sport around the world – Soccer. “Nine9” is a slang term meaning Authentic or Real.</p>
+        <div class="socials">
+          <i class="fab fa-facebook  fa-2x"></i>
+          <i class="fab fa-instagram fa-2x"></i>
+          <i class="fab fa-linkedin fa-2x"></i>
+          <i class="fab fa-twitter-square fa-2x"></i>
+          <i class="fab fa-youtube-square fa-2x"></i>
+        </div>
+      </div>
+      <div class="col l3 s12">
+         <h5 class="white-text">Explore</h5>
+        <ul class="mobile-footer-list">
+          <li><a class="white-text" href="About.html">About</a></li>
+          <li><a class="white-text" href="#!">Programmes</a></li>
+          <li><a class="white-text" href="#!">Galery</a></li>
+          <li><a class="white-text" href="#!">Tournaments</a></li>
+        </ul>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Important</h5>
+        <ul class="mobile-footer-list">
+          <li><a class="white-text" href="#!">News</a></li>
+          <li><a class="white-text" href="#!">Timeline</a></li>
+          <li><a class="white-text" href="#!">Sports</a></li>
+          <li><a class="white-text" href="#!">Volunteer</a></li>
+        </ul>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Categories</h5>
+        <ul class="mobile-footer-list">
+          <li><a class="white-text" href="#!">Diski / Soccer</a></li>
+          <li><a class="white-text" href="#!">Netball</a></li>
+          <li><a class="white-text" href="#!">E-Sports</a></li>
+          <li><a class="white-text" href="#!">Tournaments</a></li>
+        </ul>
+      </div>
+      
+    </div>
+
+  <hr>
+  <div class="footer-copyright">
+    Copyright 2019 DiskiNine9. All rights reserved 
+    <a href="index.html">Home</a>
+  </div>
+</footer>
+
+<script src="js/materialize.js"></script> 
+<script src="./js/ScrollTrigger.min.js"></script>	
+<script src="./js/gsap.min.js"></script>
+<script src="js/init.js"></script>
+<script src="./js/impact.js"></script>
+</body>
+</html>
