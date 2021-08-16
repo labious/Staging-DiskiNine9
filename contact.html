@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+
+     <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">  
+  <script src="https://kit.fontawesome.com/310dfb5b04.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="./dist/css/splide.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="./css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style1.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@splidejs/splide@2.3.1/dist/css/splide.min.css'>
+  
+        <!-- Style -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+
+
+    <title>Contact Form #6</title>
+  </head>
+  <body>
+  
+    <div class="header-scroll">
+      <nav class="white" role="navigation">
+        <div class="nav-wrapper container" id="nav-wrapper">
+          <a id="logo-container" href="index.html" class="brand-logo">
+            <img width="130px" class=" responsive-img" id="logo-image" src="./img/logo-main.jpg" alt="" srcset="">
+          </a>
+          <ul class="right hide-on-small-only " id="nav-links">
+              <li><a href="index.html">Home</a></li>
+            
+              <li id="feedback-box"><a href="About.html">About</a></li>
+  
+              <li class="" id="Programmes-menu-box">
+                <a href="programmes.html" class="  desktop-item">Programmes</a>
+              </li>
+  
+              <li class="" id="dropdown-menu-box">
+                <a href="impact.html" class="desktop-item">Impact</a>
+              </li>
+  
+              <li id="Contact-box">
+                <a href="./contact.html" class="desktop-item">Contact</a>
+              </li>
+              <li id="Galery-box"><a href="#" class="desktop-item">Galery</a></li>
+              <li><a href=" " id="download-button" class="btn-small  red lighten-1 ">Donate</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="sidenav">
+            <a href="#">
+            <img width="40px" class="circle hide-on-large-only responsive-img" id="logo-image-mobile-nav" src="./img/logo2.png" alt="" srcset="">   
+            </a>
+            <div class="mob-link">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="About.html">About</a></li>
+              <li><a href="programmes.html">Programmes</a></li>
+              <li><a href="impact.html">Impact</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+              <li><a href="#">Galery</a></li>
+              <li><a href=" " id="download-button" class="btn-small  red ">Donate</a></li>
+              <div class="socials">
+                <i class="fab fa-facebook  fa-2x"></i>
+  
+                <i class="fab fa-linkedin fa-2x"></i>
+  
+                <i class="fab fa-youtube-square fa-2x"></i>
+              </div>
+            </div>
+        </ul>
+      </div>
+    </div>
+
+
+  <div class="content">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <h3 class="heading mb-4">Let's talk everything DiskiNine9</h3>
+              <p>Get in contact with us and let us connect</p>
+              <p><img src="images/a1.png" alt="Image" class="img-fluid"></p>
+            </div>
+            <div class="col-md-6">
+              <form class="mb-5" method="post" id="contactForm" name="contactForm">
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Your name">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <textarea class="form-control" name="message" id="message" cols="30" rows="7" placeholder="Write your message"></textarea>
+                  </div>
+                </div>  
+                <div class="row">
+                  <div class="col-12">
+                    <input type="submit" value="Send Message" class="btn btn-primary rounded-0 py-2 px-4">
+                  <span class="submitting"></span>
+                  </div>
+                </div>
+              </form>
+              <div id="form-message-warning mt-4"></div> 
+              <div id="form-message-success">
+                Your message was sent, thank you!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Desktop Footer -->
+  <footer class="page-footer maroon hide-on-small-only">
+    <div class="row">
+      <div class="col  s6">
+        <h5 class="white-text">Diski Nine9</h5>
+        <p class="grey-text text-lighten-4">Diski Nine9 Africa is a registered non-profit company based in Soweto, South Africa (Reg no: 2015/447508/08). Diski Nine9 was formed in 2015 and our objective is to use sport, notably soccer and netball as a tool to educate and empower young Africans. “Diski” is a slang term used in South Africa to describe the biggest and most loved sport around the world – Soccer. “Nine9” is a slang term meaning Authentic or Real.</p>
+        <div class="socials">
+          <i class="fab fa-facebook  fa-2x"></i>
+          <i class="fab fa-instagram fa-2x"></i>
+          <i class="fab fa-linkedin fa-2x"></i>
+          <i class="fab fa-twitter-square fa-2x"></i>
+          <i class="fab fa-youtube-square fa-2x"></i>
+        </div>
+      </div>
+      <div class="col  s2 ">
+        <h5 class="white-text">Explore</h5>
+        <ul class="footer-list">
+          <li><a class="white-text" href="About.html">About</a></li>
+          <li><a class="white-text" href="programmes.html">Programmes</a></li>
+          <li><a class="white-text" href="#!">Galery</a></li>
+          <li><a class="white-text" href="#!">Tournaments</a></li>
+        </ul>
+      </div>
+      <div class="col s2">
+        <h5 class="white-text">Important</h5>
+        <ul class="footer-list">
+          <li><a class="white-text" href="#!">News</a></li>
+          <li><a class="white-text" href="#!">Timeline</a></li>
+          <li><a class="white-text" href="#!">Sports</a></li>
+          <li><a class="white-text" href="#!">Volunteer</a></li>
+        </ul>
+      </div>
+      <div class="col s2">
+        <h5 class="white-text">Categories</h5>
+        <ul class="footer-list">
+          <li><a class="white-text" href="#!">Diski / Soccer</a></li>
+          <li><a class="white-text" href="#!">Netball</a></li>
+          <li><a class="white-text" href="#!">E-Sports</a></li>
+          <li><a class="white-text" href="#!">Tournaments</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+  <div class="footer-copyright">
+    Copyright 2019 DiskiNine9. All rights reserved 
+    <a href="index.html">Home</a>
+
+  </div>
+</footer> <!-- End of Desktop Footer -->
+
+<!-- Mobile Footer -->
+<footer class="page-footer maroon hide-on-med-and-up">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Diski Nine9</h5>
+        <p class="grey-text text-lighten-4">Diski Nine9 Africa is a registered non-profit company based in Soweto, South Africa (Reg no: 2015/447508/08). Diski Nine9 was formed in 2015 and our objective is to use sport, notably soccer and netball as a tool to educate and empower young Africans. “Diski” is a slang term used in South Africa to describe the biggest and most loved sport around the world – Soccer. “Nine9” is a slang term meaning Authentic or Real.</p>
+        <div class="socials">
+          <i class="fab fa-facebook  fa-2x"></i>
+          <i class="fab fa-instagram fa-2x"></i>
+          <i class="fab fa-linkedin fa-2x"></i>
+          <i class="fab fa-twitter-square fa-2x"></i>
+          <i class="fab fa-youtube-square fa-2x"></i>
+        </div>
+      </div>
+      <div class="col l3 s12">
+         <h5 class="white-text">Explore</h5>
+        <ul class="mobile-footer-list">
+          <li><a class="white-text" href="About.html">About</a></li>
+          <li><a class="white-text" href="#!">Programmes</a></li>
+          <li><a class="white-text" href="#!">Galery</a></li>
+          <li><a class="white-text" href="#!">Tournaments</a></li>
+        </ul>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Important</h5>
+        <ul class="mobile-footer-list">
+          <li><a class="white-text" href="#!">News</a></li>
+          <li><a class="white-text" href="#!">Timeline</a></li>
+          <li><a class="white-text" href="#!">Sports</a></li>
+          <li><a class="white-text" href="#!">Volunteer</a></li>
+        </ul>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Categories</h5>
+        <ul class="mobile-footer-list">
+          <li><a class="white-text" href="#!">Diski / Soccer</a></li>
+          <li><a class="white-text" href="#!">Netball</a></li>
+          <li><a class="white-text" href="#!">E-Sports</a></li>
+          <li><a class="white-text" href="#!">Tournaments</a></li>
+        </ul>
+      </div>
+      
+    </div>
+
+  <hr>
+  <div class="footer-copyright">
+    Copyright 2019 DiskiNine9. All rights reserved 
+    <a href="index.html">Home</a>
+  </div>
+</footer> <!-- End of Mobile Footer -->
+    
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/materialize.js"></script> 
+</body>
+</html>
