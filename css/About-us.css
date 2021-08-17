@@ -60,7 +60,7 @@ article {
 
   }
   .profile img {
-
+    border-radius:100%;
     padding: 5vh;
   }
   .profile::before,
